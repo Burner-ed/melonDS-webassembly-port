@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111210" />
+    <title>melonDS / Cartridge Library</title>
+    <script type="module" crossorigin src="./assets/index-D0cfgWBf.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CTidU1EN.css">
+    <link rel="icon" type="image/png" href="./assets/MelonDS_Logo.svg.webp">
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="boot-diagnostic" hidden role="alert" style="position:fixed;inset:16px 16px auto;z-index:20;padding:14px;border:2px solid #222;background:#f5f5f4;color:#171817;font:14px monospace;white-space:pre-wrap;overflow-wrap:anywhere"></div>
+    <script>
+      const showBootDiagnostic = (message) => {
+        const panel = document.getElementById('boot-diagnostic');
+        panel.hidden = false;
+        panel.textContent = `UI startup error: ${message}`;
+      };
+      window.addEventListener('error', (event) => showBootDiagnostic(event.message || 'The app script failed to load.'));
+      window.addEventListener('unhandledrejection', (event) => showBootDiagnostic(event.reason?.message || String(event.reason)));
+      window.setTimeout(() => {
+        if (!document.querySelector('#root .app-shell') && document.getElementById('boot-diagnostic').hidden) {
+          showBootDiagnostic('The interface did not mount. Reload the page and check the browser console.');
+        }
+      }, 5000);
+    </script>
+  </body>
+</html>
