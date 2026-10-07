@@ -3,8 +3,8 @@
 
 -icon from a melonds icon submission, created by "Omgmog" find them here: https://github.com/omgmog
 # melonDS-webassembly-port
-
-<img width="232" height="268" alt="ds_icon" src="https://github.com/user-attachments/assets/2f8ff5dc-b3ff-4bc9-9df5-0034aa633e45" /> <img width="232" height="268" alt="ds_icon (2)" src="https://github.com/user-attachments/assets/20f66b6a-8ec1-48e1-926e-d89cd6459c21" /> <img width="232" height="268" alt="ds_icon (3)" src="https://github.com/user-attachments/assets/e25de62e-4654-40e5-9c97-51486b4fcb1a" />
+Main Menu:
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/742aef1d-bfaf-4b88-a6b4-b1ded6da2569" />
 
 
 
@@ -19,4 +19,24 @@ Unlike most melon DS ports this one comes fully optimized, with an amazing front
 # The Library creator
 This project is highly based on webRcade, so that means it has its own .Json feed system!
 with the library creator in the main menu you can create lists of games, set the url for their .nds or .dsi file, and a url for the carts icon, and a short description of your game then you can export your list as a .Json. then back in your library tab you can choose to load a .Json locally or from a URL *(you see how this is setup exactly for Xbox right?)*
+UI:
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/109bd671-a75a-438f-9b9e-774a1bef10f2" />
+
+# YOUR library
+This is your library, pretty self explaining, load a melonds .json and fetch games and have icons, or load roms directly for quicker use
+local loading is only for desktop and mobile systems will not work with xbox.
+UI with a few games:
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ddb42765-e898-4fcf-a436-3b67f1216b71" />
+
+# boring settings...
+emulator settings:
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/62fb97d2-5e51-41c9-aea2-4786506489f5" />
+audio settings:
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ae04ae6e-e3bd-41a5-bd20-8255b1733fb1" />
+controller settings:
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b8d107df-6993-4d85-9090-f9504e676732" />
+
+
+
+
 
